@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "tsc": "tsc",
-    "dev": "ts-node-dev src/server.ts"
+    "dev": "ts-node-dev src/server.ts",
+    "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
   },
   "keywords": [],
   "author": "Simone Lopes",
@@ -18,6 +19,9 @@
   },
   "dependencies": {
     "express": "^4.17.1",
-    "tsc-init": "^2.1.0"
+    "reflect-metadata": "^0.1.13",
+    "sqlite3": "^5.0.2",
+    "tsc-init": "^2.1.0",
+    "typeorm": "^0.2.37"
   }
 }
